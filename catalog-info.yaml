@@ -1,0 +1,12 @@
+# catalog-info.yaml
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: inventory-service
+  annotations:
+    github.com/project-slug: your-org/inventory-service   # links GitHub
+    backstage.io/kubernetes-id: inventory-service          # links K8s resources
+spec:
+  type: service
+  owner: group:platform-team
+  system: ecommerce
