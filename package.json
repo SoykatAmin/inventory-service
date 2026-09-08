@@ -1,0 +1,9 @@
+{
+  "name": "inventory-service",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "echo 'building...' && exit 0",
+    "test": "jest",
+    "test:fail": "echo 'simulated failure' && exit 1"
+  }
+}
