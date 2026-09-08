@@ -8,5 +8,6 @@ metadata:
     backstage.io/kubernetes-id: inventory-service          # links K8s resources
 spec:
   type: service
+  lifecycle: production
   owner: group:platform-team
   system: ecommerce
