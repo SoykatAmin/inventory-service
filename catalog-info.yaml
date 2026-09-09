@@ -4,7 +4,7 @@ kind: Component
 metadata:
   name: inventory-service
   annotations:
-    github.com/project-slug: your-org/inventory-service   # links GitHub
+    github.com/project-slug: SoykatAmin/inventory-service   # links GitHub
     backstage.io/kubernetes-id: inventory-service          # links K8s resources
 spec:
   type: service
